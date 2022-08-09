@@ -8,6 +8,10 @@
 body {
     overflow-x: hidden;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 .main-width {
     width: 1280px;
     max-width: 95%;
@@ -145,7 +149,7 @@ span{
 }
 .social a:hover{
    transform: scale(1.1);
-   background: #ffeba3;
+   background: #1ab65c;
    transition: .4s; 
    text-decoration: none;
 }
